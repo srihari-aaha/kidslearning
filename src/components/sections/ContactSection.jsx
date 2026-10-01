@@ -88,7 +88,7 @@ export default function ContactSection({ onBookDemo }) {
                   </div>
                   <div className="channel-text">
                     <span className="channel-label">Operating Hours</span>
-                    <span className="channel-value">Mon – Sat: 9:00 AM – 7:00 PM</span>
+                    <span className="channel-value">Mon – Sat: 9:00 AM – 9:00 PM</span>
                   </div>
                 </div>
               </div>
