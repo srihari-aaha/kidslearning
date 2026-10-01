@@ -13,7 +13,7 @@ export default function AboutSection({ onExploreCourses }) {
           <ScrollReveal direction="right" delay={0} className="about-reveal-image">
             <div className="about-image-card">
               <img
-                src="/about-learners.jpg"
+                src={`${import.meta.env.BASE_URL}about-learners.jpg`}
                 alt="Children learning together at Lerners Space"
                 width="480"
                 height="360"

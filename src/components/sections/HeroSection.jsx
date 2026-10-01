@@ -109,10 +109,10 @@ export default function HeroSection({
           >
             <div className="hero-image-card">
               <img
-                src="/hero-learner.jpg"
-                alt="Child happily learning and solving puzzles with Lerners Space"
+                src={`${import.meta.env.BASE_URL}hero-learner.png`}
+                alt="Children happily learning, reading books and solving puzzles together with Lerners Space"
                 width="480"
-                height="360"
+                height="480"
                 loading="eager"
               />
 
